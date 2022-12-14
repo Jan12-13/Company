@@ -1,0 +1,40 @@
+/* @theme future */
+
+@import 'default';
+
+section {
+	width: 1920px;
+	height: 1080px;
+	font-size: 40px;
+	padding: 40px;
+	background-image: url(img/topcon.png);
+	background-repeat: no-repeat;
+	background-position: 95% 5%;
+}
+
+header {
+	width: 100%;
+	padding: 5px;
+	color: rgb(5, 177, 235);
+	background: linear-gradient(to right, rgb(5, 177, 235), white);
+	top: 120px;
+}
+
+footer {
+	width: 100%;
+	background-color: rgb(111, 111, 111);
+	color: rgb(111, 111, 111);
+	text-align: left;
+	padding: 15px;
+	font-style: oblique;
+}
+
+h1 {
+	font-size: 100px;
+	color: rgb(5, 177, 235);
+}
+
+h2 {
+	font-size: 70px;
+	color: rgb(5, 177, 235);
+}
